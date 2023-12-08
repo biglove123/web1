@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.zon {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 80px auto;
+    border: 1px solid white;
+}
+
+.f1,
+.f2,
+.f3 {
+    box-shadow: 10px 10px 10px -4px rgb(29, 27, 27);
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.f2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 160px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.f1 {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+.f3 {
+    position: absolute;
+    top: 70px;
+    left: 240px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    background-color: rgb(249, 252, 252);
+    width: 100px;
+    height: 70px;
+    font-size: 24px;
+}
+
+#lrain {
+    left: 150px;
+}
